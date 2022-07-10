@@ -1,0 +1,75 @@
+{% extends "layout.html" %} {% block body %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-10">
+			<h2 class="white_text">
+				{{ticker}} | {{sector}} | {{country}} | {{website}}
+			</h2>
+		</div>
+		<div class="col-sm-2">
+			<br />
+			<a href="http://localhost:5555/" class="btn btn-lg btn-success">New Forecast</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="blank100">
+			<!-- Blank Space -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<p>
+				<strong> About Organization </strong>
+			</p>
+			<h4 class="white_text">{{summary}}</h4>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="blank100">
+			<!-- Blank Space -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6">
+			<p>
+				<strong> Train History </strong>
+			</p>
+			<h2 class="white_text">{{min_date}} -> {{max_date}}</h2>
+		</div>
+		<div class="col-sm-2">
+			<p>
+				<strong> Forecast Date </strong>
+			</p>
+			<h2 class="white_text">{{forecast_date}}</h2>
+		</div>
+		<div class="col-sm-2">
+			<p>
+				<strong> Forecast (Closing Price) </strong>
+			</p>
+			<h2 class="white_text">{{forecast}}</h2>
+		</div>
+		<div class="col-sm-2">
+			<p>
+				<strong> Uncertainity </strong>
+			</p>
+			<span class="green_text">+</span>
+			<span class="red_text">-</span>
+			<span class="blue_text">{{bound}}</span>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="blank100">
+			<!-- Blank Space -->
+		</div>
+	</div>
+	<div class="row footer">
+		<center>
+			KaiSheng Lim (Email: limkaisheng.work@gmail.com | Github:
+			@Interstellarkai)
+		</center>
+	</div>
+</div>
+{% endblock body %}

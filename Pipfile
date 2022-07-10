@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+yfinance = "*"
+plotly = "*"
+protobuf = "*"
+requests = "*"
+rsa = "*"
+scipy = "*"
+setuptools-git = "*"
+tensorboard = "*"
+tensorboard-plugin-wit = "*"
+tensorflow = "*"
+tensorflow-estimator = "*"
+urllib3 = "*"
+Flask = "*"
+Pillow = "*"
+SQLAlchemy = "*"
+prophet = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
