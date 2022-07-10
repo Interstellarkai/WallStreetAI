@@ -21,8 +21,7 @@ $ git clone https://github.com/Interstellarkai/WallStreetAI
 
 Create a project environment (pipenv recommended):
 ```
-$ pipenv shell
-$ pipenv install - r requirements.txt
+$ pipenv install
 ```
 
 Install prerequisites:
@@ -33,7 +32,8 @@ $ pip install -r REQUIREMENTS.txt
 Run project:
 ```
 $ cd WallStreetAI
-$ python runserver.py
+$ pipenv shell (if virtual environment is used)
+$ python3 runserver.py
 ```
 
 ## Model Validation Analysis
