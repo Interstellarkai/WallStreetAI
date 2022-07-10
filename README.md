@@ -19,12 +19,13 @@ Download or clone project from github:
 $ git clone https://github.com/Interstellarkai/WallStreetAI
 ```
 
+## Install - Local
 Create a project environment (pipenv recommended):
 ```
 $ pipenv install
 ```
 
-Install prerequisites:
+Otherwise install prerequisites:
 ```
 $ pip install -r REQUIREMENTS.txt
 ```
@@ -36,6 +37,17 @@ $ pipenv shell (if virtual environment is used)
 $ python3 runserver.py
 ```
 
+## Install - Docker
+
+```
+docker build -t <image name> .
+docker run -it -p <localhost>:<localport>:<containerport> <image name>
+
+Example:
+By convention: image name is user/app:latest
+docker build -t interstellarkai/wallstreetai:latest .    
+docker run -it -p 0.0.0.0:5555:5555 interstellarkai/wallstreetai
+```
 ## Model Validation Analysis
 
 **Facebook (Stock: FB) Validation**
