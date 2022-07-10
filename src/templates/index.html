@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/form-static/util.css" />
+<link rel="stylesheet" type="text/css" href="../static/form-static/main.css" />
+{% endblock head %}
+
+{% block body %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="blank200">
+			<!-- Blank Space -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<center>
+				<h1 class="tagline">W A L L S T R E E T</h1>
+			</center>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="blank100">
+			<!-- Blank Space -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<center>
+				<!-- To get the stock ticker from the user, we use form, input, post method -->
+				<!-- After clicking the start button, you will be redirected to the /predict page as defined in action='predict' -->
+				<!-- Get method has privacy issue. E.g., We don't want bank details, password to be displayed on URL. Post method resolves that-->
+				<!-- Ironically, that is also the  downside of post method. It now removes the benefit of autocomplete based on browser history  -->
+				<form class="contact1-form validate-form" action="/predict" method="POST" enctype="multipart/form-data">
+					<div class="wrap-input1 validate-input" data-validate="Company TICKER is required">
+						<!-- autocompletes predict value based on earlier typed value  -->
+						<!-- autofocus puts the cursor in the text box for me -->
+						<!-- required ensures there's something filled in the input field -->
+						<input autocomplete="off" class="input1" required type="text" autofocus name="ticker"
+							id="ticker" placeholder="E.g., AAPL, TSLA, or MSFT!" />
+						<span class="shadow-input1"></span>
+					</div>
+					<!-- Instead of doing Input Type = "submit" <input type = "submit"> -->
+					<!-- Here, we did a button named "Start" -->
+					<div class="container-contact1-form-btn">
+						<button class="contact1-form-btn">
+							<span>Start<i class="" aria-hidden="true"></i></span>
+						</button>
+					</div>
+				</form>
+			</center>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+	<div class="row">
+		<div class="blank100">
+			<!-- Blank Space -->
+		</div>
+	</div>
+	<div class="row footer">
+		<center>
+			KaiSheng Lim (Email: limkaisheng.work@gmail.com | Github:
+			@Interstellarkai)
+		</center>
+	</div>
+</div>
+{% endblock body %}
