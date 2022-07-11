@@ -27,7 +27,7 @@ jobs:
               uses: docker/build-push-action@v3
               with:
                   push: true
-                  tags: interstellarkai/wallstreetai
+                  tags: interstellarkai/wallstreetai:latest
                   dockerfile: ./Dockerfile
 
     deploy:
@@ -42,7 +42,9 @@ jobs:
               id: deploy-to-webapp
               uses: azure/webapps-deploy@v2
               with:
+                  # Name of the Azure Web App
                   app-name: "wallstreetai"
-                  slot-name: "production"
+                  # Applies to Web Apps(Linux) and Web App Containers(linux). Multi container scenario not supported. Publish profile (*.publishsettings) file contents with Web Deploy secrets
                   publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-                  images: interstellarkai/wallstreetai
+                  # Applies to Web App Containers only: Specify the fully qualified container image(s) name. For example, 'myregistry.azurecr.io/nginx:latest' or 'python:3.7.2-alpine/'. For multi-container scenario multiple container image names can be provided (multi-line separated)
+                  images: interstellarkai/wallstreetai:latest 
