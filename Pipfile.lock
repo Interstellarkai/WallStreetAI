@@ -1194,11 +1194,11 @@
         },
         "plotly": {
             "hashes": [
-                "sha256:9acf168915101caac82ed6da3390840c622d9d4e4a78cbe1260f52501efc3117",
-                "sha256:b0536e72bbc0b3cf169ac1fd00759d77aae7bb12ae378cdc75c5dc362f5de576"
+                "sha256:02e40264f145e524d9628fd516031976b60d74a33bbabce037ea28580bcd4e0c",
+                "sha256:2e3407d93a9700beebbef66d11f63992c58e058dd808442ee54af40f98fb4940"
             ],
             "index": "pypi",
-            "version": "==5.9.0"
+            "version": "==5.14.0"
         },
         "prophet": {
             "hashes": [
