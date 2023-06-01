@@ -217,7 +217,7 @@
                 "sha256:300f4b0825f57688b47b6d70c6a31de33512eb2fa1ac614f780939aa0cf91680",
                 "sha256:42ca7b6ce88b6c7433e2ce47ea884e91ec93104a4b754998be498a8e6c3d37dd"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
             "version": "==0.3.1"
         },
         "cycler": {
@@ -646,7 +646,7 @@
                 "sha256:e069a897013717ea6b4a66188acc40846843e7ac2cab554efd647bdbe971d85f",
                 "sha256:fb036a75e0f6e25a31ab3a68fdca7c5357c199c1b83f5b2a562fcde3fb9e5450"
             ],
-            "markers": "python_version >= '3.8' and python_version < '4'",
+            "markers": "python_version >= '3.8' and python_version < '4.0'",
             "version": "==4.8.2"
         },
         "idna": {
@@ -1391,11 +1391,11 @@
         },
         "rsa": {
             "hashes": [
-                "sha256:5c6bd9dc7a543b7fe4304a631f8a8a3b674e2bbfc49c2ae96200cdbe55df6b17",
-                "sha256:95c5d300c4e879ee69708c428ba566c59478fd653cc3a22243eeb8ed846950bb"
+                "sha256:90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7",
+                "sha256:e38464a49c6c85d7f1351b0126661487a7e0a14a50f1675ec50eb34d4f20ef21"
             ],
             "index": "pypi",
-            "version": "==4.8"
+            "version": "==4.9"
         },
         "scipy": {
             "hashes": [
