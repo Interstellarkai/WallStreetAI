@@ -1576,10 +1576,10 @@
         },
         "pymeeus": {
             "hashes": [
-                "sha256:bb9d670818d8b0594317b48a7dadea02a0594e5344263bf2054e1a011c8fed55"
+                "sha256:548f7186bd8b96cbc069cf649a8e8e377dce49ac74486709849fe63a99cad684"
             ],
             "index": "pypi",
-            "version": "==0.5.11"
+            "version": "==0.5.12"
         },
         "pyparsing": {
             "hashes": [
