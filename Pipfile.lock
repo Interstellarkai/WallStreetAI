@@ -939,11 +939,12 @@
         },
         "keras": {
             "hashes": [
-                "sha256:38c6fff0ea9a8b06a2717736565c92a73c8cd9b1c239e7125ccb188b7848f65e"
+                "sha256:2dcc6d2e30cf9c951064b63c1f4c404b966c59caf09e01f3549138ec8ee0dd1f",
+                "sha256:81871d298c064dc4ac6b58440fdae67bfcf47c8d7ad28580fab401834c06a575"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==2.11.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==2.15.0"
         },
         "keras-preprocessing": {
             "hashes": [
