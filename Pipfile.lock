@@ -355,12 +355,12 @@
         },
         "cmdstanpy": {
             "hashes": [
-                "sha256:685cb944e88cbab7bb28a012bcacd3195a079aee8deaca0d9f23e7b0e7d2bf6f",
-                "sha256:712266d7c963b3da6cbd9fd36918325d3444ae9d5e046cdce4aeaca9858e35cc"
+                "sha256:bbfe7b5fd64be0f559ca6496c3302b696497c1477dd73f106c1c601ea7e0550d",
+                "sha256:bdf55ab76f9eea01763b8990a56ff55d03e69ec31d9613fdbbe4c452126ff1bb"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==1.0.4"
+            "markers": "python_version >= '3.8'",
+            "version": "==1.2.0"
         },
         "contourpy": {
             "hashes": [
@@ -1983,6 +1983,14 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
             "version": "==1.4.48"
         },
+        "stanio": {
+            "hashes": [
+                "sha256:0c504ae671b8d526a1da71185ac02a2775508ffe6d3db91f242eac85bcf6046f",
+                "sha256:2d34b5ebe9ad8fcd137437209bf4b53846d88dbe933441aca5d83fd32f9b0c7e"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==0.3.0"
+        },
         "tenacity": {
             "hashes": [
                 "sha256:2f277afb21b851637e8f52e6a613ff08734c347dc19ade928e519d7d2d8569b0",
@@ -2081,12 +2089,12 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:40be55d30e200777a307a7585aee69e4eabb46b4ec6a4b4a5f2d9f11e7d5408d",
-                "sha256:74a2cdefe14d11442cedf3ba4e21a3b84ff9a2dbdc6cfae2c34addb2a14a5ea6"
+                "sha256:d302b3c5b53d47bce91fea46679d9c3c6508cf6332229aa1e7d8653723793386",
+                "sha256:d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"
             ],
             "index": "pypi",
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==4.64.0"
+            "markers": "python_version >= '3.7'",
+            "version": "==4.66.1"
         },
         "typing-extensions": {
             "hashes": [
