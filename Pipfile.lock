@@ -924,12 +924,12 @@
         },
         "holidays": {
             "hashes": [
-                "sha256:0e70fd174804aea1c870b151319faebcd5cdb0d955b78230434e1afd1778498e",
-                "sha256:441156949b1c41f08bb08ef8e79fcadfd76d2dd7837f49d7bfc6a572fc442c93"
+                "sha256:8303ccf2662241001d18ae4cfe44874872b999c827ec0f63d8022ab092b39ea3",
+                "sha256:b629b2d12b433eb313aacf903ee9431c0fbd77c58900d51e85e124704f7c41b6"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==0.14.2"
+            "markers": "python_version >= '3.8'",
+            "version": "==0.39"
         },
         "html5lib": {
             "hashes": [
