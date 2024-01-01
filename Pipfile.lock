@@ -2038,11 +2038,11 @@
         },
         "tensorflow-estimator": {
             "hashes": [
-                "sha256:ea3b64acfff3d9a244f06178c9bdedcbdd3f125b67d0888dba8229498d06468b"
+                "sha256:aedf21eec7fb2dc91150fc91a1ce12bc44dbb72278a08b58e79ff87c9e28f153"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==2.11.0"
+            "version": "==2.15.0"
         },
         "tensorflow-io-gcs-filesystem": {
             "hashes": [
