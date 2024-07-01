@@ -994,12 +994,12 @@
         },
         "hijri-converter": {
             "hashes": [
-                "sha256:5ed4f4c284626e3916cd770e09346d5cc319e2a7762c22357838864908fd6e6d",
-                "sha256:9e1d9fa4c220f6867da2abb1a96240675ae974abba951c686a781f4ef6ac218f"
+                "sha256:069b6789291e0830f4860a79dcd34fb3ceea3b95516ed4010202b9656ba1ab61",
+                "sha256:c04f072c78e1854a1f474ada253a3377009457221dbc1b14999761728e663662"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.6'",
-            "version": "==2.2.4"
+            "markers": "python_version >= '3.7'",
+            "version": "==2.3.1"
         },
         "holidays": {
             "hashes": [
