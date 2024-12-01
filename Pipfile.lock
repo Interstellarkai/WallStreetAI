@@ -1996,12 +1996,12 @@
         },
         "plotly": {
             "hashes": [
-                "sha256:02e40264f145e524d9628fd516031976b60d74a33bbabce037ea28580bcd4e0c",
-                "sha256:2e3407d93a9700beebbef66d11f63992c58e058dd808442ee54af40f98fb4940"
+                "sha256:dbc8ac8339d248a4bcc36e08a5659bacfe1b079390b8953533f4eb22169b4bae",
+                "sha256:f67073a1e637eb0dc3e46324d9d51e2fe76e9727c892dde64ddf1e1b51f29089"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.6'",
-            "version": "==5.14.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==5.24.1"
         },
         "propcache": {
             "hashes": [
@@ -2437,12 +2437,12 @@
         },
         "tenacity": {
             "hashes": [
-                "sha256:8bc6c0c8a09b31e6cad13c47afbed1a567518250a9a171418582ed8d9c20ca78",
-                "sha256:b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687"
+                "sha256:807f37ca97d62aa361264d497b0e31e92b8027044942bfa756160d908320d73b",
+                "sha256:93de0c98785b27fcf659856aa9f54bfbd399e29969b0621bc7f762bd441b4539"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==8.5.0"
+            "version": "==9.0.0"
         },
         "tensorboard": {
             "hashes": [
