@@ -1111,12 +1111,12 @@
         },
         "holidays": {
             "hashes": [
-                "sha256:9fb957f6c2ac5b849e3473e000e0acfad4553215b575d43d6b60e09c47bb7897",
-                "sha256:a20a4f0299b1ecd6238c8a62f622c637742ee3212b3abeb616a85686b99ea621"
+                "sha256:174b64b9c23ef97600b32f4c44d4cf685223d75188dd746bce185fcbcdfd0522",
+                "sha256:d9a21be2c01e68f28bae1544a36736566830b065f467b59bca32caefb4c4487f"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==0.65"
+            "version": "==0.67"
         },
         "html5lib": {
             "hashes": [
