@@ -1098,12 +1098,20 @@
         },
         "hijri-converter": {
             "hashes": [
-                "sha256:069b6789291e0830f4860a79dcd34fb3ceea3b95516ed4010202b9656ba1ab61",
-                "sha256:c04f072c78e1854a1f474ada253a3377009457221dbc1b14999761728e663662"
+                "sha256:51124b40b27d072c402a4eeea1a368dd3952992f250109117292c8ecf9c66f28",
+                "sha256:986657ccd83a5beaf233ce5a219645747e885c45d4833bd2a8fa1b927fa39570"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==2.3.1"
+            "version": "==2.3.2.post1"
+        },
+        "hijridate": {
+            "hashes": [
+                "sha256:de59a435cf2598dcee2dc028a34cd9b17d1fa2f35379b32efca70ab81462edfa",
+                "sha256:f0d96619dc91dd792ae6b28159b6973a7b4b8a15017106f4cbcd11825549d4af"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.3.0"
         },
         "holidays": {
             "hashes": [
