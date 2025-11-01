@@ -394,12 +394,12 @@
         },
         "cmdstanpy": {
             "hashes": [
-                "sha256:53314e934ac63d894affb36263ac062b1e0e483c368a7b691087726803917b3b",
-                "sha256:90ae8781d80efbc62962b91974deb6033ee2f0696324eacde7188d837c36c47c"
+                "sha256:60b10d110993bd8345735994786b2b17782fdc5530a6adbc0cd8ec836d82c2b9",
+                "sha256:67d83fbb823948c3ca8a84912359d6c0a5c616a62025526dba5f43a1d970bc52"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==1.2.5"
+            "markers": "python_version >= '3.9'",
+            "version": "==1.3.0"
         },
         "contourpy": {
             "hashes": [
