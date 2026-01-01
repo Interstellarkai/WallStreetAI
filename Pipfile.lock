@@ -752,11 +752,10 @@
         },
         "flatbuffers": {
             "hashes": [
-                "sha256:255538574d6cb6d0a79a17ec8bc0d30985913b87513a01cce8bcdb6b4c44d0e2",
-                "sha256:676f9fa62750bb50cf531b42a0a2a118ad8f7f797a511eda12881c016f093b12"
+                "sha256:7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
             ],
             "index": "pypi",
-            "version": "==25.9.23"
+            "version": "==25.12.19"
         },
         "fonttools": {
             "hashes": [
