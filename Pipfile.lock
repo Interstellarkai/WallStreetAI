@@ -609,7 +609,6 @@
                 "sha256:f145bba11b878005c496e93e257c1e88f154d278d2638e6450d17e0f31e558d2",
                 "sha256:fe346b143ff9685e40192a4960938545c699054ba11d4f9029f94751e3f71d87"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8' and python_full_version not in '3.9.0, 3.9.1'",
             "version": "==46.0.5"
         },
@@ -1075,12 +1074,12 @@
         },
         "google-auth-oauthlib": {
             "hashes": [
-                "sha256:0e922eea5f2baacaf8867febb782e46e7b153236c21592ed76ab3ddb77ffd772",
-                "sha256:3ca93859c6cc9003c8e12b2a0868915209d7953f05a70f4880ab57d57e56ee3e"
+                "sha256:386b3fb85cf4a5b819c6ad23e3128d975216b4cac76324de1d90b128aaf38f29",
+                "sha256:cd39e807ac7229d6b8b9c1e297321d36fcc8a9e4857dff4301870985df51a528"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==1.2.4"
+            "version": "==1.3.0"
         },
         "google-pasta": {
             "hashes": [
