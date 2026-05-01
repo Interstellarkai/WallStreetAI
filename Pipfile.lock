@@ -2077,10 +2077,11 @@
         },
         "multitasking": {
             "hashes": [
-                "sha256:2fba2fa8ed8c4b85e227c5dd7dc41c7d658de3b6f247927316175a57349b84d1"
+                "sha256:d896b5df877c9ca5eeddbf0e5994124694d6cb535aba698fb23344c7025155a1",
+                "sha256:ec9243af140c67bfe52dc98d7173c294512735a88e8425c458b250db99dc2b48"
             ],
             "index": "pypi",
-            "version": "==0.0.12"
+            "version": "==0.0.13"
         },
         "namex": {
             "hashes": [
